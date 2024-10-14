@@ -7,6 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
+ <form method="get">
+  <b><h1>Agregar seguros</h1></b>
+  
+  Id seguro:  <br>
+  Descripción: <input type="text" name="txtDescripcion" style="width: 180px; margin-top: 5px;margin-left:83px; "/> <br>
+  <label for="seguro">Tipo de seguro:</label>
+<select id="seguro" name="seguro" style="width: 180px;margin-top: 5px;margin-left: 66px;">
+                <option value="Salud">Salud</option>
+                <option value="Automóvil">Automóvil</option>
+                <option value="Hogar">Hogar</option>
+                <option value="Vida">Vida</option>
+            </select><br>
+      Costo contratación: <input type="text" name="txtCosto" style="width: 180px; margin-top: 5px;margin-left:42px; "/> <br> 
+      Costo máximo asegurado: <input type="text" name="txtCostoMaximo" style="width: 180px; margin-top: 5px;margin-left:1px; "/> <br>
 
+  </form>
 </body>
 </html>
