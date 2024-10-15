@@ -7,8 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
- <form method="get">
+ 	<nav>
+		<a href="Inicio.jsp">Inicio</a>
+		<a href="AgregarSeguro.jsp">Agregar seguro</a>
+		<a href="ListarSeguros.jsp">Listar seguros</a>
+	</nav>
   <b><h1>Agregar seguros</h1></b>
+ <form method="get">
   
   Id seguro:  <br>
   Descripción: <input type="text" name="txtDescripcion" style="width: 180px; margin-top: 5px;margin-left:83px; "/> <br>
