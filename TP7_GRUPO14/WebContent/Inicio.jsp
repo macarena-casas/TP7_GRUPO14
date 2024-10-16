@@ -13,5 +13,7 @@
 		<a href="ListarSeguros.jsp">Listar seguros</a>
 	</nav>
 <h1>Soy la página inicio</h1> 
+//Esto hay que eliminarlo solo para el commit
+
 </body>
 </html>
